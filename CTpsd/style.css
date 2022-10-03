@@ -1,0 +1,260 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.section1 {
+    background-image: url('./Images/Hero1.png');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    border: 2px solid red;
+    color: white;
+    padding: 2px;
+}
+
+.logoLink ul li {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
+.logoLink li {
+    display: inline-block;
+    margin-right: 2rem;
+    text-decoration: none;
+
+}
+
+.logoLink a {
+    color: white;
+}
+
+.section2 {
+    width: 100%;
+    background-color: white;
+    border: 2px solid blue;
+    height: 70px;
+}
+
+.logoLink_two ul li {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
+.logoLink_two li {
+    display: inline-block;
+    margin-right: 2rem;
+    text-decoration: none;
+
+}
+
+.logoLink_two a {
+    color: #414f6b;
+}
+
+.logoWrapper {
+    display: flex;
+    width: 11em;
+    border: 2px solid green;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section3 {
+    height: 60em;
+    border: 2px solid yellow;
+    background-image: url('./Images/peak.png');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section3_Text {
+    margin: 75px auto;
+    min-height: 13em;
+    width: 70%;
+    border: 2px solid violet;
+    position: relative;
+
+}
+
+.number {
+    font-size: 10em;
+    font-weight: bolder;
+    color: rgba(114, 112, 112, 0.536)
+}
+
+.text {
+    position: absolute;
+    color: #414f6b;
+    font-size: 3em;
+    font-weight: bold;
+    top: 72px;
+    left: 185px;
+
+}
+
+.lorem {
+    width: 80%;
+    margin: 0px auto;
+    letter-spacing: 1px;
+    border: 2px solid lime;
+}
+
+.crousel {
+    border: 2px solid lime;
+    width: 100%;
+    height: 13em;
+    margin-top: 18.2em;
+    background-color: #414f6b;
+    opacity: 0.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.carousel-item active img {
+    height: 11em !important;
+
+}
+
+.carousel-item img {
+    height: 11em !important;
+
+}
+
+
+
+
+/* * *************Section4************** */
+.section4 {
+    width: 70%;
+    height: 12em;
+    border: 2px solid red;
+    position: relative;
+    margin-left: 26em;
+}
+
+.two {
+    font-weight: bolder;
+    font-size: 8em;
+    color: rgba(114, 112, 112, 0.536);
+}
+
+.text2 {
+    font-size: 2em;
+    color: #414f6b;
+    font-weight: bold;
+    position: absolute;
+    top: 60px;
+    left: 150px;
+
+}
+
+.section4_Text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lorem2 {
+    border: 2px solid purple;
+    width: 50em;
+
+
+}
+
+/****** Section5************ */
+
+.section5 {
+    width: 100%;
+    height: 2.5em;
+    background-color: #414f6b;
+
+}
+
+/****************** section6****************** */
+.section6 {
+    width: 100%;
+    height: 52em;
+    background-image: url('./Images/lastpic.png');
+    background-size: cover;
+    position: relative;
+}
+
+.table {
+    background-color: white;
+    opacity: 0.5;
+    position: absolute;
+    width: 20em;
+    min-height: 13em;
+    top: 290px;
+    left: 420px;
+    padding: 5px;
+    border: 2px solid black;
+    border: none !important;
+}
+
+tr td {
+    padding: 10px 15px;
+}
+
+.table h3 {
+    color: #414f6b;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+/* ********************section7***************** */
+.section7 {
+    background-color: #414f6b;
+    height: 4.5em;
+    position: relative;
+
+}
+
+.opacityDiv {
+    background-color: #414f6b;
+    height: 4.5em;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+    width: 100%;
+    left: 0;
+}
+
+#one {
+    background-image: url('./Images/Hero1.png');
+    background-size: contain;
+    height: 20em !important;
+    width: 100%;
+    background-position: right;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.twoText {
+    width: 50% !important;
+
+
+}
